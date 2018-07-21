@@ -1,0 +1,39 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "My Blog",
+  "main": "index.js",
+  "scripts": {
+    "webserver": "node api/src/server.js",
+    "build": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rightpeter/my_blog.git"
+  },
+  "author": "rightpeter <rightpeter.lu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rightpeter/my_blog/issues"
+  },
+  "homepage": "https://github.com/rightpeter/my_blog#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "koa": "^2.5.2",
+    "koa-cors": "0.0.16",
+    "koa-route": "^3.2.0",
+    "mongodb": "^3.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
